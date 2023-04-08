@@ -40,15 +40,15 @@ def _cfg(url='', **kwargs):
 
 
 default_cfgs = {
-    'dfformer_s18': _cfg(),
-    'dfformer_s36': _cfg(),
-    'dfformer_m36': _cfg(),
-    'dfformer_b36': _cfg(),
+    'dfformer_s18': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/dfformer_s18.pth"),
+    'dfformer_s36': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/dfformer_s36.pth"),
+    'dfformer_m36': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/dfformer_m36.pth"),
+    'dfformer_b36': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/dfformer_b36.pth"),
     'gfformer_s18': _cfg(),
-    'cdfformer_s18': _cfg(),
-    'cdfformer_s36': _cfg(),
-    'cdfformer_m36': _cfg(),
-    'cdfformer_b36': _cfg(),
+    'cdfformer_s18': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/cdfformer_s18.pth"),
+    'cdfformer_s36': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/cdfformer_s36.pth"),
+    'cdfformer_m36': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/cdfformer_m36.pth"),
+    'cdfformer_b36': _cfg(url="https://github.com/okojoalg/dfformer/releases/download/weights/cdfformer_b36.pth"),
     'dfformer_s18_k2': _cfg(),
     'dfformer_s18_d8': _cfg(),
     'dfformer_s18_gelu': _cfg(),
