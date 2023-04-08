@@ -2,7 +2,7 @@
 
 This code is the official implementation of [DFFormer and CDFFormer](https://arxiv.org/pdf/2303.03932.pdf).
 
-FFT-based Dynamic Token Mixer for Vision](https://arxiv.org/pdf/2303.03932.pdf)
+[FFT-based Dynamic Token Mixer for Vision](https://arxiv.org/pdf/2303.03932.pdf)
 
 ## Usage
 
