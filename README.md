@@ -1,8 +1,21 @@
-# FFT-based Dynamic Token Mixer for Vision
+**[AAAI 2024] FFT-Based Dynamic Token Mixer for Vision**
+========
+
+[![arXiv](https://img.shields.io/badge/arXiv-2303.03932-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2303.03932)
+
+Created by
+* [Yuki Tatsunami](https://okojoalg.github.io/) 
+  * [![Rikkyo University](https://img.shields.io/badge/Rikkyo-University-FFFFFF?style=plastic&labelColor=582780)](https://www.rikkyo.ac.jp)
+  * [![AnyTech](https://img.shields.io/badge/AnyTech-Co.%20Ltd.-18C4AA?style=plastic&labelColor=254BB1)](https://anytech.co.jp/)
+* [Masato Taki](https://scholar.google.com/citations?hl=en&user=3nMhvfgAAAAJ)
+  * [![Rikkyo University](https://img.shields.io/badge/Rikkyo-University-FFFFFF?style=plastic&labelColor=582780)](https://www.rikkyo.ac.jp)
 
 This code is the official implementation of [DFFormer and CDFFormer](https://arxiv.org/pdf/2303.03932.pdf).
 
-[FFT-based Dynamic Token Mixer for Vision](https://arxiv.org/pdf/2303.03932.pdf)
+## Caution
+
+Recently I found an error in figures. I will correct the arXiv version in the near future. However, the published version cannot be revised.
+In Figure 5 (Throughput vs. resolution) and 6 (Peak memory vs. resolution), correctly, pink is DFFormer, blue is CDFFormer, and purple is GFFormer.
 
 ## Usage
 
